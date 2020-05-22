@@ -2,19 +2,19 @@ function BoardMember(name, homestate, training) {
   
 }
 
-User.prototype.veto = function() {
+BoardMember.prototype.veto = function() {
   console.log(`No, I must disagree`);
 };
 
-user.prototype.approve = function(){
+BoardMember.prototype.approve = function(){
   console.log(`You can do that!`);
 };
 
-user.prototype.doCharity = function(){
+BoardMember.prototype.doCharity = function(){
   console.log(`I like to help people.`);
 };
 
-user.prototype.releasePressStatement = function(){
+BoardMember.prototype.releasePressStatement = function(){
   console.log(`You will see great things from Scuber.`);
 };
 
