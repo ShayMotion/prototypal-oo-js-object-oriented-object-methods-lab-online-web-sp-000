@@ -1,0 +1,4 @@
+BoardMember(name, homestate, training); {
+  
+}
+
